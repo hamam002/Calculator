@@ -89,5 +89,12 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func clear(sender: UIButton) {
+        operandStack.removeAll(keepCapacity: false)
+        isInMiddleOfTyping = false
+        display.text = "0"
+        println("Operand Stack = \(operandStack)")
+    }
+    
 }
 
