@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pF9-SG-b78">
-                                <rect key="frame" x="124" y="268" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pF9-SG-b78">
+                                <rect key="frame" x="124" y="285" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="WNl-PS-75f"/>
                                     <constraint firstAttribute="width" constant="64" id="iUn-ub-I6d"/>
@@ -31,8 +31,8 @@
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ex8-OH-RFT"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1n-d6-Gjz">
-                                <rect key="frame" x="196" y="268" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1n-d6-Gjz">
+                                <rect key="frame" x="196" y="285" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="hhX-fF-gIZ"/>
                                     <constraint firstAttribute="width" constant="64" id="qep-lE-vcZ"/>
@@ -45,8 +45,8 @@
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RfG-3H-OOn"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jt5-hK-vIU">
-                                <rect key="frame" x="268" y="268" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jt5-hK-vIU">
+                                <rect key="frame" x="268" y="285" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="AT1-9m-7iC"/>
                                     <constraint firstAttribute="width" constant="64" id="KI0-MC-QLs"/>
@@ -59,8 +59,8 @@
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vtH-v7-bPe"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thD-dU-6BG">
-                                <rect key="frame" x="124" y="340" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thD-dU-6BG">
+                                <rect key="frame" x="124" y="357" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="7d8-cz-pOz"/>
                                     <constraint firstAttribute="height" constant="64" id="hKu-f2-OEx"/>
@@ -73,8 +73,8 @@
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TFC-Zl-jCa"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyV-6C-IEC">
-                                <rect key="frame" x="268" y="340" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyV-6C-IEC">
+                                <rect key="frame" x="268" y="357" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="HZ3-vp-UYP"/>
                                     <constraint firstAttribute="height" constant="64" id="mO4-dx-2HU"/>
@@ -87,8 +87,8 @@
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sdq-tw-cbg"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwY-hx-Jc4">
-                                <rect key="frame" x="196" y="412" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwY-hx-Jc4">
+                                <rect key="frame" x="196" y="429" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="4bI-yq-0cy"/>
                                     <constraint firstAttribute="height" constant="64" id="Cmc-Kw-Tbp"/>
@@ -101,8 +101,8 @@
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0B1-wy-DaV"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZV-gz-meY">
-                                <rect key="frame" x="196" y="340" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZV-gz-meY">
+                                <rect key="frame" x="196" y="357" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="5Sd-PB-nCt"/>
                                     <constraint firstAttribute="width" constant="64" id="cm3-HR-iw3"/>
@@ -115,8 +115,8 @@
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pz5-gT-eOx"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bha-8d-fJf">
-                                <rect key="frame" x="268" y="412" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bha-8d-fJf">
+                                <rect key="frame" x="268" y="429" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="Lsp-YO-wHO"/>
                                     <constraint firstAttribute="height" constant="64" id="guX-pQ-Iep"/>
@@ -129,8 +129,8 @@
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pTw-x4-oRT"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhI-P8-vj1">
-                                <rect key="frame" x="340" y="412" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhI-P8-vj1">
+                                <rect key="frame" x="340" y="429" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="JmK-cx-QSU"/>
                                     <constraint firstAttribute="height" constant="64" id="faY-o8-xCQ"/>
@@ -143,8 +143,8 @@
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="by4-l4-7h4"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZT-qQ-rWV">
-                                <rect key="frame" x="340" y="340" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZT-qQ-rWV">
+                                <rect key="frame" x="340" y="357" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="1Ts-5L-544"/>
                                     <constraint firstAttribute="width" constant="64" id="h8c-vA-Azt"/>
@@ -157,8 +157,8 @@
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P2B-hu-MTI"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZoT-Tx-bmT">
-                                <rect key="frame" x="340" y="268" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZoT-Tx-bmT">
+                                <rect key="frame" x="340" y="285" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="LTb-Bn-MmM"/>
                                     <constraint firstAttribute="height" constant="64" id="biN-GY-ZSM"/>
@@ -171,8 +171,8 @@
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l9w-al-Qnt"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqH-K8-Edu">
-                                <rect key="frame" x="412" y="412" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqH-K8-Edu">
+                                <rect key="frame" x="412" y="429" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="Dev-Dm-uDK"/>
                                     <constraint firstAttribute="height" constant="64" id="wmf-zF-hw5"/>
@@ -185,8 +185,8 @@
                                     <action selector="enter" destination="BYZ-38-t0r" eventType="touchUpInside" id="J8F-2x-c4S"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPw-aE-O8T">
-                                <rect key="frame" x="412" y="340" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPw-aE-O8T">
+                                <rect key="frame" x="412" y="357" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="7MH-oj-w2f"/>
                                     <constraint firstAttribute="width" constant="64" id="uJ3-t1-4is"/>
@@ -199,8 +199,8 @@
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GzE-zE-mSx"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XuW-Lj-zxI">
-                                <rect key="frame" x="412" y="268" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XuW-Lj-zxI">
+                                <rect key="frame" x="412" y="285" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="0Vd-pf-9tt"/>
                                     <constraint firstAttribute="width" constant="64" id="z4r-Yy-1F6"/>
@@ -213,8 +213,8 @@
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0wU-hd-Kxt"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXX-C1-ydU">
-                                <rect key="frame" x="124" y="412" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXX-C1-ydU">
+                                <rect key="frame" x="124" y="429" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="DNc-uA-jdm"/>
                                     <constraint firstAttribute="height" constant="64" id="N1D-B1-DmT"/>
@@ -241,8 +241,8 @@
                                 <rect key="frame" x="476" y="71" width="124" height="529"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KA5-mm-ioL">
-                                <rect key="frame" x="124" y="124" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KA5-mm-ioL">
+                                <rect key="frame" x="124" y="141" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="5Ua-px-egs"/>
                                     <constraint firstAttribute="width" constant="64" id="JNR-g9-Gx3"/>
@@ -257,8 +257,8 @@
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uUB-ik-TSZ"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fy9-e5-UYd">
-                                <rect key="frame" x="196" y="124" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fy9-e5-UYd">
+                                <rect key="frame" x="196" y="141" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="98X-rh-zVT"/>
                                     <constraint firstAttribute="width" constant="64" id="CfU-kE-g4Y"/>
@@ -273,8 +273,8 @@
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N6M-yh-sPz"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fP3-ww-JQP">
-                                <rect key="frame" x="268" y="124" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fP3-ww-JQP">
+                                <rect key="frame" x="268" y="141" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="6Qh-AQ-nvR"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="c4x-V1-ii9"/>
@@ -289,8 +289,8 @@
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2cY-u3-Mzi"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPH-6b-5FG">
-                                <rect key="frame" x="340" y="124" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPH-6b-5FG">
+                                <rect key="frame" x="340" y="141" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="2sb-vQ-Rb9"/>
                                     <constraint firstAttribute="width" constant="64" id="BXT-LE-Q8A"/>
@@ -305,8 +305,8 @@
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S0K-Du-sWa"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abj-FI-a7T">
-                                <rect key="frame" x="412" y="124" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abj-FI-a7T">
+                                <rect key="frame" x="412" y="141" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="4m3-SD-bEg"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="AtZ-fH-eRJ"/>
@@ -318,8 +318,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Nb-Cr-txa">
-                                <rect key="frame" x="124" y="196" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Nb-Cr-txa">
+                                <rect key="frame" x="124" y="213" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="8le-Fb-m9F"/>
                                     <constraint firstAttribute="height" constant="64" id="qHj-rH-Bhn"/>
@@ -332,8 +332,8 @@
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oi5-N0-ygQ"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4oN-T5-DaN">
-                                <rect key="frame" x="196" y="196" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4oN-T5-DaN">
+                                <rect key="frame" x="196" y="213" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="ED0-7p-K1D"/>
                                     <constraint firstAttribute="height" constant="64" id="KUz-Q4-ak5"/>
@@ -346,8 +346,8 @@
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mgl-4e-tjZ"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXI-iP-Wou">
-                                <rect key="frame" x="268" y="196" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXI-iP-Wou">
+                                <rect key="frame" x="268" y="213" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="Khq-mG-ggt"/>
                                     <constraint firstAttribute="height" constant="64" id="Oby-yc-TUZ"/>
@@ -360,8 +360,8 @@
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WcL-K5-5wa"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67z-EJ-qCZ">
-                                <rect key="frame" x="340" y="196" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67z-EJ-qCZ">
+                                <rect key="frame" x="340" y="213" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="EtD-sQ-bgD"/>
                                     <constraint firstAttribute="width" constant="64" id="lnm-nH-RU4"/>
@@ -374,8 +374,8 @@
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yAY-cR-e3D"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EkP-lE-rUq">
-                                <rect key="frame" x="412" y="196" width="64" height="64"/>
+                            <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EkP-lE-rUq">
+                                <rect key="frame" x="412" y="213" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="ajN-Uf-cFO"/>
                                     <constraint firstAttribute="width" constant="64" id="oeb-3j-Dzg"/>
@@ -388,8 +388,8 @@
                                     <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GmN-yq-SFF"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqE-kL-SpU">
-                                <rect key="frame" x="124" y="484" width="352" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqE-kL-SpU">
+                                <rect key="frame" x="124" y="501" width="352" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Le6-4F-QQN"/>
                                 </constraints>
@@ -397,6 +397,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EVr-Tf-BSE">
+                                <rect key="frame" x="124" y="531" width="352" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wQB-55-48G">
+                                <rect key="frame" x="124" y="71" width="352" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -418,6 +426,7 @@
                             <constraint firstItem="W1n-d6-Gjz" firstAttribute="centerY" secondItem="XuW-Lj-zxI" secondAttribute="centerY" id="6Hd-fR-mY9"/>
                             <constraint firstItem="W1n-d6-Gjz" firstAttribute="centerY" secondItem="jt5-hK-vIU" secondAttribute="centerY" id="6lW-eQ-0ha"/>
                             <constraint firstItem="LqH-K8-Edu" firstAttribute="centerY" secondItem="kXX-C1-ydU" secondAttribute="centerY" id="6nB-dq-JIR"/>
+                            <constraint firstAttribute="trailing" secondItem="nJL-KR-cIs" secondAttribute="trailing" id="7KB-D7-V6e"/>
                             <constraint firstItem="LqH-K8-Edu" firstAttribute="centerY" secondItem="bha-8d-fJf" secondAttribute="centerY" id="7y8-It-Hnf"/>
                             <constraint firstItem="W1n-d6-Gjz" firstAttribute="top" secondItem="4oN-T5-DaN" secondAttribute="bottom" constant="8" id="86u-zv-Q2u"/>
                             <constraint firstItem="DXI-iP-Wou" firstAttribute="leading" secondItem="4oN-T5-DaN" secondAttribute="trailing" constant="8" id="8td-Qx-rnE"/>
@@ -431,15 +440,18 @@
                             <constraint firstItem="6ZT-qQ-rWV" firstAttribute="leading" secondItem="ZyV-6C-IEC" secondAttribute="trailing" constant="8" id="FjO-fM-jLK"/>
                             <constraint firstItem="W1n-d6-Gjz" firstAttribute="centerX" secondItem="DZV-gz-meY" secondAttribute="centerX" id="HVM-4F-Cuu"/>
                             <constraint firstItem="thD-dU-6BG" firstAttribute="top" secondItem="pF9-SG-b78" secondAttribute="bottom" constant="8" id="IAI-iz-yIf"/>
+                            <constraint firstItem="EVr-Tf-BSE" firstAttribute="top" secondItem="OqE-kL-SpU" secondAttribute="bottom" id="JYh-2B-sII"/>
                             <constraint firstItem="Abj-FI-a7T" firstAttribute="centerY" secondItem="fP3-ww-JQP" secondAttribute="centerY" id="Kt8-ek-AeK"/>
                             <constraint firstItem="ZyV-6C-IEC" firstAttribute="centerX" secondItem="bha-8d-fJf" secondAttribute="centerX" id="Lkg-xB-zbp"/>
                             <constraint firstItem="LqH-K8-Edu" firstAttribute="centerY" secondItem="nhI-P8-vj1" secondAttribute="centerY" id="LnS-bj-CVF"/>
+                            <constraint firstItem="wQB-55-48G" firstAttribute="leading" secondItem="L2u-Gh-zJh" secondAttribute="trailing" id="NZ6-AT-g5h"/>
                             <constraint firstItem="fy9-e5-UYd" firstAttribute="leading" secondItem="KA5-mm-ioL" secondAttribute="trailing" constant="8" id="Nnj-md-D0J"/>
                             <constraint firstItem="ZyV-6C-IEC" firstAttribute="leading" secondItem="DZV-gz-meY" secondAttribute="trailing" constant="8" id="NpX-4M-hXX"/>
                             <constraint firstItem="OqE-kL-SpU" firstAttribute="top" secondItem="kXX-C1-ydU" secondAttribute="bottom" constant="8" id="OWj-ZO-2Fj"/>
                             <constraint firstItem="Abj-FI-a7T" firstAttribute="centerY" secondItem="KA5-mm-ioL" secondAttribute="centerY" id="Pa6-qA-3q7"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nJL-KR-cIs" secondAttribute="bottom" id="Pi7-31-hCg"/>
                             <constraint firstItem="LqH-K8-Edu" firstAttribute="leading" secondItem="nhI-P8-vj1" secondAttribute="trailing" constant="8" id="Prj-oL-SUz"/>
+                            <constraint firstItem="EVr-Tf-BSE" firstAttribute="height" secondItem="wQB-55-48G" secondAttribute="height" id="QEp-nQ-IvB"/>
                             <constraint firstItem="nhI-P8-vj1" firstAttribute="centerX" secondItem="ZoT-Tx-bmT" secondAttribute="centerX" id="QO9-6h-kpi"/>
                             <constraint firstItem="LqH-K8-Edu" firstAttribute="centerY" secondItem="gwY-hx-Jc4" secondAttribute="centerY" id="R14-5N-v1b"/>
                             <constraint firstItem="L2u-Gh-zJh" firstAttribute="top" secondItem="vfL-1f-Zq0" secondAttribute="bottom" id="R1Y-Pv-gPD"/>
@@ -447,11 +459,16 @@
                             <constraint firstItem="XuW-Lj-zxI" firstAttribute="leading" secondItem="ZoT-Tx-bmT" secondAttribute="trailing" constant="8" id="StW-rc-yGx"/>
                             <constraint firstItem="6Nb-Cr-txa" firstAttribute="top" secondItem="KA5-mm-ioL" secondAttribute="bottom" constant="8" id="Tql-tx-gb5"/>
                             <constraint firstItem="nJL-KR-cIs" firstAttribute="leading" secondItem="XuW-Lj-zxI" secondAttribute="trailing" id="U84-ug-4Nn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EVr-Tf-BSE" secondAttribute="bottom" id="UXG-Qd-yMh"/>
                             <constraint firstItem="6Nb-Cr-txa" firstAttribute="centerX" secondItem="pF9-SG-b78" secondAttribute="centerX" id="UhB-Ty-VpP"/>
                             <constraint firstItem="DXI-iP-Wou" firstAttribute="top" secondItem="fP3-ww-JQP" secondAttribute="bottom" constant="8" id="UkP-lA-DB2"/>
+                            <constraint firstItem="nJL-KR-cIs" firstAttribute="leading" secondItem="wQB-55-48G" secondAttribute="trailing" id="VNg-zS-zCb"/>
+                            <constraint firstItem="EVr-Tf-BSE" firstAttribute="leading" secondItem="L2u-Gh-zJh" secondAttribute="trailing" id="WXT-73-LNb"/>
                             <constraint firstItem="OqE-kL-SpU" firstAttribute="leading" secondItem="kXX-C1-ydU" secondAttribute="leading" id="Wbc-YL-6c2"/>
+                            <constraint firstAttribute="trailing" secondItem="nJL-KR-cIs" secondAttribute="trailing" id="WiU-oA-zfs"/>
                             <constraint firstItem="fy9-e5-UYd" firstAttribute="centerX" secondItem="4oN-T5-DaN" secondAttribute="centerX" id="XeX-Qz-Qii"/>
                             <constraint firstItem="W1n-d6-Gjz" firstAttribute="centerX" secondItem="4oN-T5-DaN" secondAttribute="centerX" id="Xj8-qE-uX8"/>
+                            <constraint firstItem="Abj-FI-a7T" firstAttribute="top" secondItem="wQB-55-48G" secondAttribute="bottom" id="YQJ-jw-MEn"/>
                             <constraint firstItem="6ZT-qQ-rWV" firstAttribute="top" secondItem="ZoT-Tx-bmT" secondAttribute="bottom" constant="8" id="YbW-yK-5i5"/>
                             <constraint firstItem="kXX-C1-ydU" firstAttribute="top" secondItem="thD-dU-6BG" secondAttribute="bottom" constant="8" id="Yts-By-o46"/>
                             <constraint firstItem="fP3-ww-JQP" firstAttribute="centerY" secondItem="ZPH-6b-5FG" secondAttribute="centerY" id="Yy7-qI-vqk"/>
@@ -469,6 +486,7 @@
                             <constraint firstItem="DZV-gz-meY" firstAttribute="top" secondItem="W1n-d6-Gjz" secondAttribute="bottom" constant="8" id="eGu-bE-z3q"/>
                             <constraint firstItem="XPw-aE-O8T" firstAttribute="leading" secondItem="6ZT-qQ-rWV" secondAttribute="trailing" constant="8" id="eKJ-HY-fhB"/>
                             <constraint firstItem="Abj-FI-a7T" firstAttribute="centerY" secondItem="fy9-e5-UYd" secondAttribute="centerY" id="eKa-7I-slM"/>
+                            <constraint firstItem="nJL-KR-cIs" firstAttribute="leading" secondItem="EVr-Tf-BSE" secondAttribute="trailing" id="eKf-ag-j4x"/>
                             <constraint firstItem="ZyV-6C-IEC" firstAttribute="centerY" secondItem="thD-dU-6BG" secondAttribute="centerY" id="eLH-dZ-K6p"/>
                             <constraint firstAttribute="trailing" secondItem="nJL-KR-cIs" secondAttribute="trailing" id="fMf-Iw-I5s"/>
                             <constraint firstItem="KA5-mm-ioL" firstAttribute="leading" secondItem="L2u-Gh-zJh" secondAttribute="trailing" id="fms-Zb-CE1"/>
@@ -493,6 +511,7 @@
                             <constraint firstItem="W1n-d6-Gjz" firstAttribute="centerY" secondItem="pF9-SG-b78" secondAttribute="centerY" id="pAG-Kk-QzD"/>
                             <constraint firstItem="W1n-d6-Gjz" firstAttribute="centerY" secondItem="ZoT-Tx-bmT" secondAttribute="centerY" id="pfL-Mz-tZ6"/>
                             <constraint firstItem="W1n-d6-Gjz" firstAttribute="leading" secondItem="pF9-SG-b78" secondAttribute="trailing" constant="8" id="q9l-Np-4Us"/>
+                            <constraint firstItem="EVr-Tf-BSE" firstAttribute="width" secondItem="wQB-55-48G" secondAttribute="width" id="qUb-PL-AQH"/>
                             <constraint firstItem="ZyV-6C-IEC" firstAttribute="centerX" secondItem="jt5-hK-vIU" secondAttribute="centerX" id="qZE-be-Ijf"/>
                             <constraint firstItem="ZoT-Tx-bmT" firstAttribute="top" secondItem="67z-EJ-qCZ" secondAttribute="bottom" constant="8" id="rjo-pi-j2t"/>
                             <constraint firstItem="ZPH-6b-5FG" firstAttribute="leading" secondItem="fP3-ww-JQP" secondAttribute="trailing" constant="8" id="ryB-rP-oUt"/>
@@ -505,6 +524,8 @@
                             <constraint firstItem="gwY-hx-Jc4" firstAttribute="leading" secondItem="kXX-C1-ydU" secondAttribute="trailing" constant="8" id="vgN-Yi-ezZ"/>
                             <constraint firstItem="nhI-P8-vj1" firstAttribute="centerX" secondItem="6ZT-qQ-rWV" secondAttribute="centerX" id="w8H-Ar-Vzp"/>
                             <constraint firstItem="fP3-ww-JQP" firstAttribute="centerY" secondItem="Abj-FI-a7T" secondAttribute="centerY" id="y1q-iM-9Sk"/>
+                            <constraint firstItem="wQB-55-48G" firstAttribute="top" secondItem="vfL-1f-Zq0" secondAttribute="bottom" id="yVP-Qf-On8"/>
+                            <constraint firstItem="L2u-Gh-zJh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yVj-DL-w2O"/>
                             <constraint firstItem="EkP-lE-rUq" firstAttribute="centerY" secondItem="4oN-T5-DaN" secondAttribute="centerY" id="yWe-rR-gMT"/>
                         </constraints>
                     </view>
