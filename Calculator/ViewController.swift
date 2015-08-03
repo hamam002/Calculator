@@ -22,7 +22,8 @@ class ViewController: UIViewController {
     
     @IBAction func appendDigit(sender: UIButton) {
         let digit = sender.currentTitle!
-        if(isInMiddleOfTyping == true){
+        let isValid = true
+        if(isInMiddleOfTyping && isValid){
             display.text = display.text! + "\(digit)"
         }
         
@@ -31,6 +32,13 @@ class ViewController: UIViewController {
             isInMiddleOfTyping = true
         }
     }
+    
+    @IBAction func addPiToOperandStack(sender: UIButton) {
+        let digit = sender.currentTitle!
+        display.text = display.text! + "\(digit)"
+        enter()
+    }
+    
     
     var operandStack = Array<Double>()
     
@@ -76,7 +84,6 @@ class ViewController: UIViewController {
             performOperation {sin($0)}
         case "cos()":
             performOperation {cos($0)}
-        
         default: break
         }
     }

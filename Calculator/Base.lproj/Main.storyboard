@@ -250,10 +250,11 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="sQt-i6-MHU"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal">
+                                <state key="normal" title="π">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="addPiToOperandStack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="amj-OH-Jhz"/>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uUB-ik-TSZ"/>
                                 </connections>
                             </button>
