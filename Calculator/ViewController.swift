@@ -70,6 +70,10 @@ class ViewController: UIViewController {
             performOperation {sqrt($0)}
         case "^":
             performOperation {pow($1, $0)}
+        case "sin":
+            performOperation {sin($0)}
+        case "cos":
+            performOperation {cos($0)}
         
         default: break
         }
