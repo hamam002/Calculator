@@ -68,6 +68,8 @@ class ViewController: UIViewController {
             performOperation {$1 - $0}
         case "√":
             performOperation {sqrt($0)}
+        case "x²":
+            performOperation {pow($0, 2)}
         case "^":
             performOperation {pow($1, $0)}
         case "sin":

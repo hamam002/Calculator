@@ -122,11 +122,11 @@
                                     <constraint firstAttribute="height" constant="64" id="guX-pQ-Iep"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="⏎">
+                                <state key="normal" title=".">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="enter" destination="BYZ-38-t0r" eventType="touchUpInside" id="86F-mj-d9r"/>
+                                    <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pTw-x4-oRT"/>
                                 </connections>
                             </button>
                             <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhI-P8-vj1">
@@ -178,9 +178,12 @@
                                     <constraint firstAttribute="height" constant="64" id="wmf-zF-hw5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal">
+                                <state key="normal" title="⏎">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="enter" destination="BYZ-38-t0r" eventType="touchUpInside" id="J8F-2x-c4S"/>
+                                </connections>
                             </button>
                             <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPw-aE-O8T">
                                 <rect key="frame" x="412" y="340" width="64" height="64"/>
@@ -189,7 +192,7 @@
                                     <constraint firstAttribute="width" constant="64" id="uJ3-t1-4is"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="^">
+                                <state key="normal" title="x²">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -217,11 +220,11 @@
                                     <constraint firstAttribute="height" constant="64" id="N1D-B1-DmT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title=".">
+                                <state key="normal" title="-">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7t8-hc-unV"/>
+                                    <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7LG-48-A9g"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfL-1f-Zq0">
@@ -263,9 +266,12 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="eNr-VA-aRr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="-">
+                                <state key="normal" title="^">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N6M-yh-sPz"/>
+                                </connections>
                             </button>
                             <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fP3-ww-JQP">
                                 <rect key="frame" x="268" y="124" width="64" height="64"/>
@@ -279,6 +285,9 @@
                                 <state key="normal" title="cos()">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2cY-u3-Mzi"/>
+                                </connections>
                             </button>
                             <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPH-6b-5FG">
                                 <rect key="frame" x="340" y="124" width="64" height="64"/>
@@ -292,6 +301,9 @@
                                 <state key="normal" title="sin()">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S0K-Du-sWa"/>
+                                </connections>
                             </button>
                             <button autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abj-FI-a7T">
                                 <rect key="frame" x="412" y="124" width="64" height="64"/>
@@ -369,13 +381,22 @@
                                     <constraint firstAttribute="width" constant="64" id="oeb-3j-Dzg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Clear">
+                                <state key="normal" title="A/C">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GmN-yq-SFF"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqE-kL-SpU">
+                                <rect key="frame" x="124" y="484" width="352" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Le6-4F-QQN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -405,6 +426,7 @@
                             <constraint firstItem="ZyV-6C-IEC" firstAttribute="top" secondItem="jt5-hK-vIU" secondAttribute="bottom" constant="8" id="BUL-4E-hjK"/>
                             <constraint firstItem="fP3-ww-JQP" firstAttribute="centerY" secondItem="fy9-e5-UYd" secondAttribute="centerY" id="CGL-Xo-jwv"/>
                             <constraint firstItem="jt5-hK-vIU" firstAttribute="top" secondItem="DXI-iP-Wou" secondAttribute="bottom" constant="8" id="CHq-ae-kOa"/>
+                            <constraint firstItem="LqH-K8-Edu" firstAttribute="trailing" secondItem="OqE-kL-SpU" secondAttribute="trailing" id="CX3-64-9t7"/>
                             <constraint firstItem="4oN-T5-DaN" firstAttribute="leading" secondItem="6Nb-Cr-txa" secondAttribute="trailing" constant="8" id="DKE-cn-HHr"/>
                             <constraint firstItem="6ZT-qQ-rWV" firstAttribute="leading" secondItem="ZyV-6C-IEC" secondAttribute="trailing" constant="8" id="FjO-fM-jLK"/>
                             <constraint firstItem="W1n-d6-Gjz" firstAttribute="centerX" secondItem="DZV-gz-meY" secondAttribute="centerX" id="HVM-4F-Cuu"/>
@@ -414,6 +436,7 @@
                             <constraint firstItem="LqH-K8-Edu" firstAttribute="centerY" secondItem="nhI-P8-vj1" secondAttribute="centerY" id="LnS-bj-CVF"/>
                             <constraint firstItem="fy9-e5-UYd" firstAttribute="leading" secondItem="KA5-mm-ioL" secondAttribute="trailing" constant="8" id="Nnj-md-D0J"/>
                             <constraint firstItem="ZyV-6C-IEC" firstAttribute="leading" secondItem="DZV-gz-meY" secondAttribute="trailing" constant="8" id="NpX-4M-hXX"/>
+                            <constraint firstItem="OqE-kL-SpU" firstAttribute="top" secondItem="kXX-C1-ydU" secondAttribute="bottom" constant="8" id="OWj-ZO-2Fj"/>
                             <constraint firstItem="Abj-FI-a7T" firstAttribute="centerY" secondItem="KA5-mm-ioL" secondAttribute="centerY" id="Pa6-qA-3q7"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nJL-KR-cIs" secondAttribute="bottom" id="Pi7-31-hCg"/>
                             <constraint firstItem="LqH-K8-Edu" firstAttribute="leading" secondItem="nhI-P8-vj1" secondAttribute="trailing" constant="8" id="Prj-oL-SUz"/>
@@ -426,9 +449,11 @@
                             <constraint firstItem="nJL-KR-cIs" firstAttribute="leading" secondItem="XuW-Lj-zxI" secondAttribute="trailing" id="U84-ug-4Nn"/>
                             <constraint firstItem="6Nb-Cr-txa" firstAttribute="centerX" secondItem="pF9-SG-b78" secondAttribute="centerX" id="UhB-Ty-VpP"/>
                             <constraint firstItem="DXI-iP-Wou" firstAttribute="top" secondItem="fP3-ww-JQP" secondAttribute="bottom" constant="8" id="UkP-lA-DB2"/>
+                            <constraint firstItem="OqE-kL-SpU" firstAttribute="leading" secondItem="kXX-C1-ydU" secondAttribute="leading" id="Wbc-YL-6c2"/>
                             <constraint firstItem="fy9-e5-UYd" firstAttribute="centerX" secondItem="4oN-T5-DaN" secondAttribute="centerX" id="XeX-Qz-Qii"/>
                             <constraint firstItem="W1n-d6-Gjz" firstAttribute="centerX" secondItem="4oN-T5-DaN" secondAttribute="centerX" id="Xj8-qE-uX8"/>
                             <constraint firstItem="6ZT-qQ-rWV" firstAttribute="top" secondItem="ZoT-Tx-bmT" secondAttribute="bottom" constant="8" id="YbW-yK-5i5"/>
+                            <constraint firstItem="kXX-C1-ydU" firstAttribute="top" secondItem="thD-dU-6BG" secondAttribute="bottom" constant="8" id="Yts-By-o46"/>
                             <constraint firstItem="fP3-ww-JQP" firstAttribute="centerY" secondItem="ZPH-6b-5FG" secondAttribute="centerY" id="Yy7-qI-vqk"/>
                             <constraint firstItem="kXX-C1-ydU" firstAttribute="top" secondItem="thD-dU-6BG" secondAttribute="bottom" constant="8" id="ZRe-N2-zSt"/>
                             <constraint firstItem="fP3-ww-JQP" firstAttribute="centerY" secondItem="KA5-mm-ioL" secondAttribute="centerY" id="afd-7D-eMu"/>
